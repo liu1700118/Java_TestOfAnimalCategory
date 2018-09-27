@@ -1,0 +1,18 @@
+public class Animal{
+ String name;
+ int old;
+ double height,weight;
+ boolean IsThereAHair=false;
+ void TheSoundOfAnAnimal(){
+   System.out.println("汪汪汪？= =");
+}
+ void AnimalWalk（）{
+ System.err.println("打滚拆家");
+}
+ void AnimalMessage(){
+ System.out.println("名字："+name);
+ System.out.println("年龄："+old)；
+ System.out.println("身高："+height+"体重："+weight);
+ System.out.println("是否有毛："+IsThereAHair);
+}
+}
