@@ -17,3 +17,40 @@ public class Animal {
 	}
 	
 }
+public class cat extends Animal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name="cat";
+		int old=10;
+		double height=20,weight=50;
+		boolean IsThereAHair=false;
+		public dog() {
+			
+		}
+		public void cat(int old,double height,double weight) {
+			this.old=old;
+			this.height=height;
+			this.weight=weight;
+		}
+		public void TheSoundOfAnAnimal(){
+			System.out.println("喵喵喵");
+		}
+		void AnimalWalk(){
+			System.err.println("打滚撒娇~~~");
+		}
+		public String name(){
+			return name;
+		}
+		public void setname(String name){
+			this.name=name;
+		}
+		public boolean IsThereAHair(){
+			return IsThereAHair;
+		}
+		public void setIsThereAHair(boolean IsThereAHair)
+		{
+			this.IsThereAHair=IsThereAHair;
+		}
+	}
+}
